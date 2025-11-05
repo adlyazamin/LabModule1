@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact and Calculate</title>
+    </head>
+
+    <body style="font-family: Arial; margin: 0;">
+        <div id="header" style="background-color: lightskyblue; padding: 20px; text-align: center">
+            <header>
+                <h1>Contact and Calculate</h1>
+                <span>Interactive website for contacting and calculating</span>
+            </header>
+        </div>
+
+        <div style="background-color: lightcyan; padding: 20px; min-height:709px;">
+            <div id="content1">
+                <h1>Contact Form</h1>
+                <form action="">
+                    <h3>Email:</h3> <input type="email" name="email">
+                    <br>
+                    <h3>Date:</h3> <input type="date" name="date">
+                    <br>
+                    <h3>User Satisfaction Level:</h3> 0<input type="range" name="range" min="0" max="10" value="0" 
+                    oninput="output.value = this.value">10
+                    <br>
+                    <output id="output">0</output>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <br>
+
+            <div id="content2">
+                <h1>Addition Calculator</h1>
+                <form oninput="z.value=parseInt(x.value) + parseInt(y.value)">
+                <input type="number" value="" id="x"> +
+                <input type="number" value="" id="y">
+                <br>=
+                <output name="z" for="x y"></output>
+                </form>
+            </div>
+        </div>
+
+        <div id="footer" style="background-color: lightskyblue; padding: 10px">
+            <footer>
+                <p><i>ADLY AZAMIN</i> &copy; 2025; s76094@ocean.umt.edu.my</p>
+            </footer>
+        </div>
+    </body>
+</html>
