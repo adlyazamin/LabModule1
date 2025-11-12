@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinning Cat</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgba(201, 197, 255, 0.397);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            justify-content: center;
+        }
+
+        .form-container {
+            background-color: rgb(255, 255, 255);
+            padding: 25px 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            width: 320px;
+        }
+
+        h2 {
+            color: rgb(255, 20, 20);
+            background-color: rgba(184, 183, 255, 0.493);
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        p {
+            background-color: rgba(184, 183, 255, 0.493);
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        form {
+            background: rgba(184, 183, 255, 0.493);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(147, 210, 212);
+        }
+
+        ul li {
+            float: left;
+        }
+
+        ul li a {
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .video {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+}
+        
+        a:link {color:#ff2828;} /* unvisited link */
+        a:visited {color:#009400;} /* visited link */
+        a:hover {color:#beb200;} /* mouse over link */
+        a:active {color:#0000FF;} /* selected link */ 
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://l1nk.dev/RZyRK">Home</a></li>
+        <li><a href="https://www.thesun.co.uk/">News</a></li>
+        <li><a href="https://acesse.one/aSkTu">Contact Us</a></li>
+        <li><a href="https://www.umt.edu.my/">About Us</a></li>
+    </ul>
+    
+    <h2>CAT TALENT SHOW</h2>
+
+    <p>Contestant 1: Spinning cat</p>
+
+    <div class="video">
+        <video width="400" height="300" controls>
+            <source src="cat.mp4" type="video/mp4">
+        </video>
+    </div>
+    <br>
+
+    <form action="">
+            <h3>Simple Form</h3>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+
+            <label for="hobby">Hobby:</label><br>
+            <input type="checkbox" id="grooming" name="hobby" value="Grooming">
+            <label for="grooming">Grooming Cats</label><br>
+
+            <input type="checkbox" id="feeding" name="hobby" value="Feeding">
+            <label for="feeding">Feeding Cats</label><br>
+
+            <input type="checkbox" id="petting" name="hobby" value="Pettingz">
+            <label for="petting">Petting Cats</label><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        
+        <div class="footer">
+            <footer>
+            <p>All rights reserved <i>ADLY AZAMIN</i> &copy; 2025, <a href="mailto: s76094@ocean.umt.edu.my"> Contact me!</a></p>
+            </footer>
+        </div>
+</body>
+</html>
