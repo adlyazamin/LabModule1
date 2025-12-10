@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.side-nav {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 200px;
+    background-color: #333;
+    border-right: 2px solid #ddd;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.side-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #444;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.side-nav a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+section {
+    padding: 50px;
+    margin: 20px 0;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+/* Smooth scrolling for navigation links */
+html {
+    scroll-behavior: smooth;
+}
