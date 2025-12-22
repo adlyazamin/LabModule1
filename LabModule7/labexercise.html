@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 7 Exercise</title>
+    <link rel="stylesheet" href="labexercise.css">
+</head>
+<body>
+
+    <nav class="sidenav">
+        <h2>My Profile</h2>
+        <a href="#home">Home</a>
+        <a href="#about">Profile</a>
+        <a href="#projects">Gallery</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Login</a>
+    </nav>
+
+    <div class="main-content">
+
+        <section id="home" class="hero-section">
+            <div class="hero-overlay">
+                <h1>Future Developer</h1>
+                <p>Building interactive experiences for the future.</p>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <div class="profile-card">
+                <img src="paspot.jpg" alt="Profile Image" class="profile-img">
+                <h3>Adly Azamin</h3>
+                <p class="title">Full Time Student</p>
+                <p class="description">I love learning new languages and new skills.</p>
+            </div>
+
+            <button class="collapsible">Click here to know more about me.</button>
+            <div class="content">
+                <p>I am a student from UMT taking Software Engineering as my major. I am born and raised in Kuching, Sarawak and loves music.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Pictures of me:</h2>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="pic1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="pic2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="pic3.jpg" style="width:100%">
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+            </div>
+        </section>
+
+        <section id="skills" class="container">
+            <h2>My Skills</h2>
+            
+            <p>HTML</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 90%;">90%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 75%; background-color: #2980b9;">75%</div>
+            </div>
+
+            <p>UI/UX Design</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 60%; background-color: #e67e22;">60%</div>
+            </div>
+        </section>
+
+        <section id="contact" class="form-bg-section">
+            <div class="form-container">
+                <form action="#">
+                    <h2>Login</h2>
+                    <input type="text" placeholder="Username" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Sign In</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>Adly Azamin &copy; 2025, All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="labexercise.js"></script>
+</body>
+</html>
